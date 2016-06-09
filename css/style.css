@@ -1,45 +1,94 @@
-/* Stage */
+/* h1 {
+  text-align: center;
+  margin: 4em 0 1em 0; 
+  color: red;
+  font-size: 60px;
+} */
 
-#stage {
-    background: gray;
-    height: 300px;
-    width: 600px;
+/* My Animation */
+
+#outter_circle,
+#bg {
+  animation: slideInDown 2s 0s;
 }
 
-#stage #logo {
-    height: 100px;
-    width: 100px;
+#paint_stroke_1 {
+  animation: fadeIn 10s 0s;
 }
 
-/* DO NOT EDIT BELOW THIS LINE */
-
-input {
-    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACrElEQVR42u2Xz2sTQRSAX8VSb1K8iNqKooJH2Ux6Ksn+iPQqxZMIehJB0do/IMhmQWsvHr2KSEGk0tSLIoWIYNUKij20F2/N7iaUZnYT0kYzzhMKs0HDJiTdLcwHDwKZSd63781LBiQSSW9JZdkhzfKm1Rz9mjZp/W9YdEU3vXv4HsQZ40FtNG36q5rls//Ej4tmbSS2T15Mvp3ExOPmEMQNbBtMMEyoljcFcQN7PqyAlqNfIG7gYQ0tYNIaxA1MrJPY3wImbUqBKAXSFv0tBSIVMOkvKRDtGKWN/T6FdqRAxFNoWwpEPIXqUqBT6ALU/UVgu8GW4GD3f6f9TRDYNJTDrk7YbtiqUumHwIYoUJuHERDAS0r4CvgFECgbY+cFAR7KT+g1POmCKFDNw6WggHc3fBtVb4CAoyauBgXIG+g1Xh5mRAGah6cggBd11fK/h7lOprIs0H6uRl6KAo5O7kOv4QmPiwJ4Jqqv4FiwCtXjvD2+tRmfK6kZ/ygI2HritK0rDVGgrClJ6DWMwYC/AGuCBMYcIC2V0CzvjmbRz3j3xUjn6CfeYreUJ2wQkGD75INPX1mFfsEFrrcIYCvdhC4paWQakxajpJMr0C9YFg54i7AsClRmh9/xnr0NHcInzZStk2aLwAcGMAD9pPIazvFKVDD5rdnhJeHLX5RTyRPQHpz5o66emMc9wdlPtvA8wF7Aq2BUHh1525qEo5JtR1WeOXpickO9cJIpyuD6xJmhYiZ5ytWSl3mlnuOaf+2zDaLDXmJrSgZ/MYVEugo+gSh+FkSBa4yd5Ul87DZ5XpFl/AyIEjzYjkau8WqshU2cr13HPbgX4gJOD97n465GZlyVvC9mSKloKI2iTnbwNT+gBX54H+IaXAtxJzE3ycSAFqSAFJACUkAikXD+AHj5/wx2o5osAAAAAElFTkSuQmCC) no-repeat center right;
-    border: 1px solid #aaa;
-    display: block;
-    padding: 1em;
-    margin: 0 auto;
-    outline: none;
-    line-height: 36px;
-    width: 50%;
+#paint_stroke_2 {
+  animation: fadeIn 6s 0s;
 }
 
-div {
-    margin: 3em auto;
-    text-align: center;
-    width: 50%;
+#paint_stroke_3 {
+  animation: fadeIn 8s 0s;
+}
+
+#pencil {
+  animation: slideInRight 2s 0s;
+}
+
+#hor_lines {
+  animation: slideInLeft 2s 0s;
+}
+
+#par_lines_1_ {
+  animation: slideInUp 3s 0s;
+}
+
+#keyboard {
+  animation: fadeIn 5s 0s;
+}
+
+/* End of Animation Coding */
+
+#Layer_1 {
+ width: 30%;
+  height: 40%;
+ margin: 4em 0 1em 5em;
+}
+
+input{
+  margin: 1em auto;
+  display: block;
+  padding: 1em 12em 0 12em;
+}
+
+div{
+  text-align: center;
 }
 
 button {
-    display: inline-block;
+  margin-top: 18px;
+      height: 36px;
+    line-height: 27px;
+      background-image: -webkit-gradient(linear,left top,left bottom,from(#f5f5f5),to(#f1f1f1));
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    -webkit-border-radius: 2px;
+    -webkit-user-select: none;
     background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
     border-radius: 2px;
     color: #757575;
     cursor: default;
-    font-family: arial, sans-serif;
-    font-size: 1em;
+    font-family: arial,sans-serif;
+    font-size: 13px;
     font-weight: bold;
-    padding: .5em 1em;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
     text-align: center;
 }
+
+button:hover {
+      background-image: -webkit-gradient(linear,left top,left bottom,from(#f8f8f8),to(#f1f1f1));
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-color: #f8f8f8;
+    background-image: linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-image: -o-linear-gradient(top,#f8f8f8,#f1f1f1);
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+
